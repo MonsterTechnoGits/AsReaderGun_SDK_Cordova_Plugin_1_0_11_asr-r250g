@@ -8,15 +8,10 @@
       "ios"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "https://asx4.us/gitbucket/git/AsReaderGUN/cordova-plugin-asreadergun.git"
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "cordova",
-    "asreadergun",
-    "ecosystem:cordova",
-    "cordova-ios"
-  ],
-  "author": "Asterisk Inc."
+  "license": "ISC"
 }
