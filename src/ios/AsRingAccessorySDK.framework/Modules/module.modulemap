@@ -1,0 +1,6 @@
+framework module AsRingAccessorySDK {
+  umbrella header "AsRingAccessorySDK.h"
+
+  export *
+  module * { export * }
+}

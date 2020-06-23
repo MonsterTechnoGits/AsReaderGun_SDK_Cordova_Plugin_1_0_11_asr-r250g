@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.asreader.gun.cdv" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>AsReaderGunPlugin</name>
+    <js-module name="AsReaderGunPlugin" src="www/AsReaderGunPlugin.js">
+        <clobbers target="asreadergun" />
+    </js-module>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="AsReaderGunPlugin">
+                <param name="ios-package" value="AsReaderGunPlugin" /></feature>
+        </config-file>
+        <source-file src="src/ios/AsReaderGunPlugin.mm" />
+
+        <!-- AsReaderGUN SDK -->
+        <framework src="src/ios/AsReaderGunSDK.framework" custom="true" />
+        <framework src="src/ios/AsRingAccessorySDK.framework" custom="true" />
+        
+        <config-file target="*-Info.plist" parent="UISupportedExternalAccessoryProtocols">
+            <array>
+                <string>jp.co.asx.asring.plus</string>
+            </array>
+        </config-file>
+
+    </platform>
+</plugin>

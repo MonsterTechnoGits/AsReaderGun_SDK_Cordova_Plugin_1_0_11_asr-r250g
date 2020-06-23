@@ -1,0 +1,22 @@
+{
+  "name": "cordova-plugin-asreader-gun",
+  "version": "0.0.1",
+  "description": "Cordova AsReader GUN Plugin",
+  "cordova": {
+    "id": "cordova-plugin-asreader-gun",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://asx4.us/gitbucket/git/AsReaderGUN/cordova-plugin-asreadergun.git"
+  },
+  "keywords": [
+    "cordova",
+    "asreadergun",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Asterisk Inc."
+}
