@@ -1,17 +1,19 @@
 {
-  "name": "cordova-plugin-asreader-gun",
-  "version": "0.0.1",
-  "description": "Cordova AsReader GUN Plugin",
-  "cordova": {
-    "id": "cordova-plugin-asreader-gun",
-    "platforms": [
-      "ios"
-    ]
-  },
-  "author": "",
+  "name": "asreadergun_sdk_cordova_plugin_1_0_11",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonsterTechnoGits/AsReaderGun_SDK_Cordova_Plugin_1_0_11_asr-r250g.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MonsterTechnoGits/AsReaderGun_SDK_Cordova_Plugin_1_0_11_asr-r250g/issues"
+  },
+  "homepage": "https://github.com/MonsterTechnoGits/AsReaderGun_SDK_Cordova_Plugin_1_0_11_asr-r250g#readme"
 }
