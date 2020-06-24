@@ -4,7 +4,7 @@
 #import <AsReaderGunSDK/AsReaderGunSDK.h>
 #import <AsRingAccessorySDK/AsRingDeviceSDK.h>
 #import <Foundation/Foundation.h>
-#import "CSVData.h"
+#import <AsRingAccessorySDK/CSVData.h>
 
 @interface AsReaderGunPlugin : CDVPlugin<AsReaderDelegate>
 
